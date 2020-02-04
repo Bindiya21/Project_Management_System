@@ -1,0 +1,2 @@
+module ResulttsHelper
+end

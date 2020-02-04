@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ID:</strong>
+  <%= @plann.id %>
+</p>
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @plann.title %>
+</p>
+
+<p>
+  <strong>Robotidd:</strong>
+  <%= @plann.robotidd %>
+</p>
+
+<p>
+  <strong>Projectidd:</strong>
+  <%= @plann.projectidd %>
+</p>
+
+<p>
+  <strong>Instruments:</strong>
+  <%= @plann.instruments %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @plann.location %>
+</p>
+
+<p>
+  <strong>Procedure:</strong>
+  <%= @plann.procedure %>
+</p>
+
+<p>
+  <strong>Objective:</strong>
+  <%= @plann.objective %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @plann.comments %>
+</p>
+
+<%= link_to 'Edit', edit_plann_path(@plann) %> |
+<%= link_to 'Back', planns_path %>
